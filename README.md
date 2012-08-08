@@ -4,8 +4,8 @@ JSConnect-Codeigniter
 A JSConnect Class for CodeIgniter
 
 This contains two files:
-- app/jsconnect.php
-- controllers/auth.php
+- app/libraries/jsconnect.php
+- app/controllers/auth.php
 
 In order to get this to work on your installation you must:
 - Install and configure Vanilla Forums
