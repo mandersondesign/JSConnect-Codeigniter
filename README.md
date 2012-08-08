@@ -19,11 +19,11 @@ have any problems, then look at the detailed instructions here:
  -- http://vanillaforums.org/docs/jsconnect
 
 At this stage, you will integrate my code into your CodeIgniter project.
-- Copy the library into your libraries folder. (<CI_Install_folder>/application/libraries)
+- Copy the library into your libraries folder. ( CI_Install_folder/application/libraries )
 - Open the auth file included.
 - Copy the load library line into your constructor (ie: $this->library->("jsconnect"); )
 - Copy the "Vanilla" function over to wherever suits your authentication engine.
-  -- This will determine your "Authentication URL" (ie: http://website.com/<authcontroller>/vanilla/)
+  -- This will determine your "Authentication URL" ( ie: http://website.com/auth_controller/vanilla/ )
 
 - Add the details to your settings in JsConnect Plugin and then add your clientID and secret to the Codeigniter function.
 
